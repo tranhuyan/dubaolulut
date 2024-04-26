@@ -1,0 +1,8 @@
+{
+    "username": "dubaolu_IOT@outlook.com.vn",
+    "password": "Huyan2001",
+    "receiver_email": ["lechian2403@gmail.com, moonkute24052019@gmail.com"],
+    "smtp_server": "smtp-mail.outlook.com",
+    "smtp_port": 587,
+    "subject": "Cảnh báo lũ lụt"
+}
