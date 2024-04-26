@@ -1,14 +1,11 @@
-from flask import Flask, render_template, request, redirect, url_for
-
+from flask import Flask, render_template, request
 from flask import jsonify, make_response
-import numpy as np
 
 
 app = Flask(__name__)
 
 @app.route("/")
 def about_page():
-    # check cookie
     username = request.cookies.get('username')
     password = request.cookies.get('password')
     print('username:', username)
@@ -63,4 +60,4 @@ def login_admin():
         return jsonify({'message': 'Method not allowed'})
     
 if __name__ == "__main__":
-    app.run(debug=True,  host="0.0.0.0", port=5100)
+    app.run(debug=True)
