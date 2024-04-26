@@ -165,7 +165,7 @@ def read_water_level():
     return water_level
 
 
-databaseURL = 'https://sample-736cc.firebaseio.com/'
+databaseURL = 'https://du-bao-lu-b9c73-default-rtdb.firebaseio.com'
 
 cred_obj = firebase_admin.credentials.Certificate('firebase-adminsdk.json')
 default_app = firebase_admin.initialize_app(cred_obj, {
